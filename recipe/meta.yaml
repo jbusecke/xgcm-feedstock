@@ -9,7 +9,7 @@ source:
   sha256: 1eb5e716530b63fbe7da129fd20fa85451c527f61230df172e419eb100ce2f63
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
@@ -39,3 +39,4 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - jbusecke
